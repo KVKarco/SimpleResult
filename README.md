@@ -264,4 +264,4 @@ app.MapGet("/api/ExampleType/{id}", (int id) =>
 });
 ```
 ## Copyright
-Copyright (c) Vlatko Karcheski See [LICENSE](https://raw.githubusercontent.com/altmann/FluentResults/master/LICENSE) for details.
+Copyright (c) Vlatko Karcheski See [LICENSE](https://github.com/KVKarco/SimpleResult/blob/main/LICENSE) for details.
