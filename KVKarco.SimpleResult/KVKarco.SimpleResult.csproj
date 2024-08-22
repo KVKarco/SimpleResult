@@ -14,4 +14,35 @@
     <PackageReference Include="KVKarco.CommonTypes" Version="1.0.1" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <PackageId>KVKarco.SimpleResult</PackageId>
+    <Copyright>Copyright (c) Vlatko Karcheski. All rights reserved.</Copyright>
+    <Description>
+      Simple implementation of Result Pattern.
+      Result Pattern is a design approach that encapsulates the outcome of an operation in a way that distinctly separates success from failure.
+      Unlike traditional methods where functions return null or throw exceptions to signify failure, the Result Pattern wraps the outcome in a "Result" object. 
+    </Description>
+    <PackageTags>Result Results pattern exception error handling</PackageTags>
+    <PackageProjectUrl>https://github.com/KVKarco/SimpleResult</PackageProjectUrl>
+
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Simple Result Pattern.</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+
+    <Authors>Vlatko Karcheski</Authors>
+    <Product>KVKarco.SimpleResult</Product>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
